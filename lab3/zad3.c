@@ -10,6 +10,8 @@ int zlicz(char napis[], char znak)
 
 void main()
 {
-    char napis[]
+    char napis[] = "Elektromobilność jest bardzo fajna!\n";
+    printf("Litera l występuje %d razy.\n", zlicz(napis, 'l'));
+
 }
-]
+
