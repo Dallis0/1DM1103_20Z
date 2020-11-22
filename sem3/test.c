@@ -2,27 +2,19 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main(int argc, char *argv[]){
-    char n[100];
-    int i;
-    char n2[] = "Wielki i długi napis.";
-    char n3[20];
-    char tab[10][10];
+int main(int argc, char *argv[])
+{
+    char a = {7,291};
+    char *comma;
 
-    strcpy(tab[0], "akuku");
-    strcpy(tab[1], "hello");
-    strcpy(n, "Ala\n");
-    
-    
-   
-    printf("%s, %s, %s", n, tab[0], tab[1]);
+    sprintf(a, "%.3f", number);
 
-    for(i = 0; i<3; i++){
-        printf("[%d] %c, %d\n", i + 1, n[i], n[i]);
-    }
+    comma = strchr(a, ',');
 
-    printf("Trzeci znak z pierwszego napisu Argv: %c\n", argv[0][2]);
-    printf("Trzeci znak z drugiego napisu Argv: %c\n", argv[1][2]);
+    if(comma)
+        *comma = '.'
+
 
     return 0;
 }
+   
