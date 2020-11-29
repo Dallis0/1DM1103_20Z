@@ -3,7 +3,7 @@
 #include <string.h>
 #include <math.h>
 
-#define N 100
+#define N 255
 
 struct macierz
 {
